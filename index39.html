@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <meta charset="utf-8">
+    <TITLE>JS</title>
+    </HEAD>
+    <BODY>
+        <script>
+            let a =prompt('Введите переменную a:', '100');
+            let b = prompt('Введите переменную b:', '100');
+            let c = prompt('Введите переменную c:', '100');
+            let func =(a,b,c)=>{
+            return b*b-4*a*c;
+           }
+           let discriminant = func(a,b,c);
+           if (discriminant= Number(discriminant)){alert('D=' +discriminant)}
+           else(alert('Неверное значение переменной'));
+          </script>
+    </BODY>
+    </HTML>

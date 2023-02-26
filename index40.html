@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <meta charset="utf-8">
+    <TITLE>JS</title>
+    </HEAD>
+    <BODY>
+        <script>
+            let min = 0;
+            let max = 99;
+            function getRandomIntInclusive(min, max) {
+             min = Math.ceil(min);
+             max = Math.floor(max);
+             return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+            let a = getRandomIntInclusive(min, max);
+            let b = getRandomIntInclusive(min, max);
+            let c = getRandomIntInclusive(min, max);
+            console.log(a + '-' + b + '-' + c);
+          </script>
+    </BODY>
+    </HTML>
